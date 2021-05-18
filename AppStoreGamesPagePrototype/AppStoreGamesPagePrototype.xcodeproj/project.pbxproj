@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1F095B265412D50023FFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F095A265412D50023FFE1 /* AppDelegate.swift */; };
+		AE1F095D265412D50023FFE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F095C265412D50023FFE1 /* SceneDelegate.swift */; };
+		AE1F095F265412D50023FFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F095E265412D50023FFE1 /* ViewController.swift */; };
+		AE1F0962265412D50023FFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1F0960265412D50023FFE1 /* Main.storyboard */; };
+		AE1F0964265412D60023FFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1F0963265412D60023FFE1 /* Assets.xcassets */; };
+		AE1F0967265412D60023FFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1F0965265412D60023FFE1 /* LaunchScreen.storyboard */; };
+		AE1F0972265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F0971265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.swift */; };
+		AE1F097D265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F097C265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE1F096E265412D70023FFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1F094F265412D50023FFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1F0956265412D50023FFE1;
+			remoteInfo = AppStoreGamesPagePrototype;
+		};
+		AE1F0979265412D70023FFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1F094F265412D50023FFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1F0956265412D50023FFE1;
+			remoteInfo = AppStoreGamesPagePrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE1F0957265412D50023FFE1 /* AppStoreGamesPagePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreGamesPagePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1F095A265412D50023FFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1F095C265412D50023FFE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE1F095E265412D50023FFE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE1F0961265412D50023FFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1F0963265412D60023FFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1F0966265412D60023FFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1F0968265412D60023FFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1F096D265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreGamesPagePrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1F0971265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreGamesPagePrototypeTests.swift; sourceTree = "<group>"; };
+		AE1F0973265412D70023FFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1F0978265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreGamesPagePrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1F097C265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreGamesPagePrototypeUITests.swift; sourceTree = "<group>"; };
+		AE1F097E265412D70023FFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1F0954265412D50023FFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1F096A265412D70023FFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1F0975265412D70023FFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1F094E265412D50023FFE1 = {
+			isa = PBXGroup;
+			children = (
+				AE1F0959265412D50023FFE1 /* AppStoreGamesPagePrototype */,
+				AE1F0970265412D70023FFE1 /* AppStoreGamesPagePrototypeTests */,
+				AE1F097B265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests */,
+				AE1F0958265412D50023FFE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1F0958265412D50023FFE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1F0957265412D50023FFE1 /* AppStoreGamesPagePrototype.app */,
+				AE1F096D265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.xctest */,
+				AE1F0978265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1F0959265412D50023FFE1 /* AppStoreGamesPagePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				AE1F095A265412D50023FFE1 /* AppDelegate.swift */,
+				AE1F095C265412D50023FFE1 /* SceneDelegate.swift */,
+				AE1F095E265412D50023FFE1 /* ViewController.swift */,
+				AE1F0960265412D50023FFE1 /* Main.storyboard */,
+				AE1F0963265412D60023FFE1 /* Assets.xcassets */,
+				AE1F0965265412D60023FFE1 /* LaunchScreen.storyboard */,
+				AE1F0968265412D60023FFE1 /* Info.plist */,
+			);
+			path = AppStoreGamesPagePrototype;
+			sourceTree = "<group>";
+		};
+		AE1F0970265412D70023FFE1 /* AppStoreGamesPagePrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1F0971265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.swift */,
+				AE1F0973265412D70023FFE1 /* Info.plist */,
+			);
+			path = AppStoreGamesPagePrototypeTests;
+			sourceTree = "<group>";
+		};
+		AE1F097B265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1F097C265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.swift */,
+				AE1F097E265412D70023FFE1 /* Info.plist */,
+			);
+			path = AppStoreGamesPagePrototypeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1F0956265412D50023FFE1 /* AppStoreGamesPagePrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1F0981265412D70023FFE1 /* Build configuration list for PBXNativeTarget "AppStoreGamesPagePrototype" */;
+			buildPhases = (
+				AE1F0953265412D50023FFE1 /* Sources */,
+				AE1F0954265412D50023FFE1 /* Frameworks */,
+				AE1F0955265412D50023FFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppStoreGamesPagePrototype;
+			productName = AppStoreGamesPagePrototype;
+			productReference = AE1F0957265412D50023FFE1 /* AppStoreGamesPagePrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1F096C265412D70023FFE1 /* AppStoreGamesPagePrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1F0984265412D70023FFE1 /* Build configuration list for PBXNativeTarget "AppStoreGamesPagePrototypeTests" */;
+			buildPhases = (
+				AE1F0969265412D70023FFE1 /* Sources */,
+				AE1F096A265412D70023FFE1 /* Frameworks */,
+				AE1F096B265412D70023FFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1F096F265412D70023FFE1 /* PBXTargetDependency */,
+			);
+			name = AppStoreGamesPagePrototypeTests;
+			productName = AppStoreGamesPagePrototypeTests;
+			productReference = AE1F096D265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE1F0977265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1F0987265412D70023FFE1 /* Build configuration list for PBXNativeTarget "AppStoreGamesPagePrototypeUITests" */;
+			buildPhases = (
+				AE1F0974265412D70023FFE1 /* Sources */,
+				AE1F0975265412D70023FFE1 /* Frameworks */,
+				AE1F0976265412D70023FFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1F097A265412D70023FFE1 /* PBXTargetDependency */,
+			);
+			name = AppStoreGamesPagePrototypeUITests;
+			productName = AppStoreGamesPagePrototypeUITests;
+			productReference = AE1F0978265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1F094F265412D50023FFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AE1F0956265412D50023FFE1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					AE1F096C265412D70023FFE1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AE1F0956265412D50023FFE1;
+					};
+					AE1F0977265412D70023FFE1 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AE1F0956265412D50023FFE1;
+					};
+				};
+			};
+			buildConfigurationList = AE1F0952265412D50023FFE1 /* Build configuration list for PBXProject "AppStoreGamesPagePrototype" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1F094E265412D50023FFE1;
+			productRefGroup = AE1F0958265412D50023FFE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1F0956265412D50023FFE1 /* AppStoreGamesPagePrototype */,
+				AE1F096C265412D70023FFE1 /* AppStoreGamesPagePrototypeTests */,
+				AE1F0977265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1F0955265412D50023FFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1F0967265412D60023FFE1 /* LaunchScreen.storyboard in Resources */,
+				AE1F0964265412D60023FFE1 /* Assets.xcassets in Resources */,
+				AE1F0962265412D50023FFE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1F096B265412D70023FFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1F0976265412D70023FFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1F0953265412D50023FFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1F095F265412D50023FFE1 /* ViewController.swift in Sources */,
+				AE1F095B265412D50023FFE1 /* AppDelegate.swift in Sources */,
+				AE1F095D265412D50023FFE1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1F0969265412D70023FFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1F0972265412D70023FFE1 /* AppStoreGamesPagePrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1F0974265412D70023FFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1F097D265412D70023FFE1 /* AppStoreGamesPagePrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE1F096F265412D70023FFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1F0956265412D50023FFE1 /* AppStoreGamesPagePrototype */;
+			targetProxy = AE1F096E265412D70023FFE1 /* PBXContainerItemProxy */;
+		};
+		AE1F097A265412D70023FFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1F0956265412D50023FFE1 /* AppStoreGamesPagePrototype */;
+			targetProxy = AE1F0979265412D70023FFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE1F0960265412D50023FFE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1F0961265412D50023FFE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE1F0965265412D60023FFE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1F0966265412D60023FFE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1F097F265412D70023FFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE1F0980265412D70023FFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE1F0982265412D70023FFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppStoreGamesPagePrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azigangaraev.AppStoreGamesPagePrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE1F0983265412D70023FFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppStoreGamesPagePrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azigangaraev.AppStoreGamesPagePrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE1F0985265412D70023FFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppStoreGamesPagePrototypeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azigangaraev.AppStoreGamesPagePrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppStoreGamesPagePrototype.app/AppStoreGamesPagePrototype";
+			};
+			name = Debug;
+		};
+		AE1F0986265412D70023FFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppStoreGamesPagePrototypeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azigangaraev.AppStoreGamesPagePrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppStoreGamesPagePrototype.app/AppStoreGamesPagePrototype";
+			};
+			name = Release;
+		};
+		AE1F0988265412D70023FFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppStoreGamesPagePrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azigangaraev.AppStoreGamesPagePrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppStoreGamesPagePrototype;
+			};
+			name = Debug;
+		};
+		AE1F0989265412D70023FFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppStoreGamesPagePrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azigangaraev.AppStoreGamesPagePrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppStoreGamesPagePrototype;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1F0952265412D50023FFE1 /* Build configuration list for PBXProject "AppStoreGamesPagePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1F097F265412D70023FFE1 /* Debug */,
+				AE1F0980265412D70023FFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1F0981265412D70023FFE1 /* Build configuration list for PBXNativeTarget "AppStoreGamesPagePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1F0982265412D70023FFE1 /* Debug */,
+				AE1F0983265412D70023FFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1F0984265412D70023FFE1 /* Build configuration list for PBXNativeTarget "AppStoreGamesPagePrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1F0985265412D70023FFE1 /* Debug */,
+				AE1F0986265412D70023FFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1F0987265412D70023FFE1 /* Build configuration list for PBXNativeTarget "AppStoreGamesPagePrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1F0988265412D70023FFE1 /* Debug */,
+				AE1F0989265412D70023FFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1F094F265412D50023FFE1 /* Project object */;
+}
